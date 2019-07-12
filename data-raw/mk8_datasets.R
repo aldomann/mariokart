@@ -40,7 +40,7 @@ mk8_vehicles <- plyr::rbind.fill(mk8_karts, mk8_bikes, mk8_atvs) %>%
   dplyr::mutate(
     drift = ifelse(drift == TRUE, "inside", "outside"),
     drift = ifelse(is.na(drift), "none", drift)
-    ) %>%
+  ) %>%
   select(vehicle, vehicle_type, drift, dplyr::everything())
 
 # Export data ----------------------------------------------
