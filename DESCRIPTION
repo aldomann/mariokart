@@ -1,6 +1,6 @@
 Package: mariokart
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Title: Mario Kart Statistics from Different Games
+Version: 1.0.0
 Authors@R: 
     person(given = "Alfredo",
            family = "Hernández",
