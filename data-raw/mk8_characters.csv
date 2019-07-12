@@ -1,17 +1,17 @@
-Category,Character                                ,SN  ,SAG ,SW  ,SA  ,A   ,W   ,HN  ,HAG ,HW  ,HA  ,G   ,T
-L       ,Baby Peach;Baby Daisy                    ,2.25,2.00,2.50,2.75,4.00,2.00,5.00,5.00,4.50,5.00,4.25,4.00
-L       ,Baby Rosalina;Lemmy                      ,2.25,2.00,2.50,2.75,4.25,2.00,4.75,4.75,4.25,4.75,3.75,4.00
-L       ,Baby Mario;Baby Luigi;Dry Bones;Light Mii,2.50,2.25,2.75,3.00,4.25,2.25,4.50,4.50,4.00,4.50,4.00,3.75
-L       ,Koopa Troopa;Lakitu;Bowser Jr.           ,2.75,2.50,3.00,3.25,4.00,2.50,4.50,4.50,4.00,4.50,4.25,3.75
-L       ,Toadette;Wendy;Isabelle                  ,2.75,2.50,3.00,3.25,4.25,2.50,4.25,4.25,3.75,4.25,3.50,3.75
-L       ,Toad;Shy Guy;Larry                       ,3.00,2.75,3.25,3.50,4.00,2.75,4.25,4.25,3.75,4.25,4.00,3.50
-M       ,Cat Peach;Inkling Girl;Female Villager   ,3.25,3.00,3.50,3.75,4.00,2.75,4.00,4.00,3.50,4.00,3.75,3.50
-M       ,Peach;Daisy;Yoshi                        ,3.50,3.25,3.75,4.00,3.75,3.00,3.75,3.75,3.25,3.75,3.75,3.50
-M       ,Tanooki Mario;Inkling Boy;Male Villager  ,3.50,3.25,3.75,4.00,3.75,3.25,3.75,3.75,3.25,3.75,3.25,3.50
-M       ,Luigi;Iggy                               ,3.75,3.50,4.00,4.25,3.50,3.50,3.75,3.75,3.25,3.75,3.25,3.25
-M       ,Mario;Ludwig;Medium Mii                  ,3.75,3.50,4.00,4.25,3.50,3.50,3.50,3.50,3.00,3.50,3.50,3.25
-H       ,Rosalina;King Boo;Link                   ,4.00,3.75,4.25,4.50,3.25,3.75,3.25,3.25,2.75,3.25,3.75,3.25
-H       ,Metal Mario;Gold Mario;Pink Gold Peach   ,4.25,4.00,4.50,4.75,3.25,4.50,3.25,3.25,2.75,3.25,3.25,3.00
-H       ,Waluigi;Donkey Kong;Roy                  ,4.50,4.25,4.75,5.00,3.25,4.00,3.00,3.00,2.50,3.00,3.00,3.00
-H       ,Wario;Dry Bowser                         ,4.75,4.50,5.00,5.25,3.00,4.25,2.75,2.75,2.25,2.75,3.25,2.75
-H       ,Bowser;Morton;Heavy Mii                  ,4.75,4.50,5.00,5.25,3.00,4.50,2.50,2.50,2.00,2.50,3.00,2.75
+weight_class,character,speed_normal,speed_antigravity,speed_water,speed_air,acceleration,weight,handling_normal,handling_antigravity,handling_water,handling_air,grip,mini_turbo
+light,Baby Peach;Baby Daisy,2.25,2.00,2.50,2.75,4.00,2.00,5.00,5.00,4.50,5.00,4.25,4.00
+light,Baby Rosalina;Lemmy,2.25,2.00,2.50,2.75,4.25,2.00,4.75,4.75,4.25,4.75,3.75,4.00
+light,Baby Mario;Baby Luigi;Dry Bones;Light Mii,2.50,2.25,2.75,3.00,4.25,2.25,4.50,4.50,4.00,4.50,4.00,3.75
+light,Koopa Troopa;Lakitu;Bowser Jr.,2.75,2.50,3.00,3.25,4.00,2.50,4.50,4.50,4.00,4.50,4.25,3.75
+light,Toadette;Wendy;Isabelle,2.75,2.50,3.00,3.25,4.25,2.50,4.25,4.25,3.75,4.25,3.50,3.75
+light,Toad;Shy Guy;Larry ,3.00,2.75,3.25,3.50,4.00,2.75,4.25,4.25,3.75,4.25,4.00,3.50
+medium,Cat Peach;Inkling Girl;Female Villager,3.25,3.00,3.50,3.75,4.00,2.75,4.00,4.00,3.50,4.00,3.75,3.50
+medium,Peach;Daisy;Yoshi,3.50,3.25,3.75,4.00,3.75,3.00,3.75,3.75,3.25,3.75,3.75,3.50
+medium,Tanooki Mario;Inkling Boy;Male Villager,3.50,3.25,3.75,4.00,3.75,3.25,3.75,3.75,3.25,3.75,3.25,3.50
+medium,Luigi;Iggy ,3.75,3.50,4.00,4.25,3.50,3.50,3.75,3.75,3.25,3.75,3.25,3.25
+medium,Mario;Ludwig;Medium Mii,3.75,3.50,4.00,4.25,3.50,3.50,3.50,3.50,3.00,3.50,3.50,3.25
+heavy,Rosalina;King Boo;Link ,4.00,3.75,4.25,4.50,3.25,3.75,3.25,3.25,2.75,3.25,3.75,3.25
+heavy,Metal Mario;Gold Mario;Pink Gold Peach,4.25,4.00,4.50,4.75,3.25,4.50,3.25,3.25,2.75,3.25,3.25,3.00
+heavy,Waluigi;Donkey Kong;Roy,4.50,4.25,4.75,5.00,3.25,4.00,3.00,3.00,2.50,3.00,3.00,3.00
+heavy,Wario;Dry Bowser ,4.75,4.50,5.00,5.25,3.00,4.25,2.75,2.75,2.25,2.75,3.25,2.75
+heavy,Bowser;Morton;Heavy Mii,4.75,4.50,5.00,5.25,3.00,4.50,2.50,2.50,2.00,2.50,3.00,2.75

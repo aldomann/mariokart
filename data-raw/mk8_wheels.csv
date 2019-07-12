@@ -1,0 +1,10 @@
+wheels,speed_normal,speed_antigravity,speed_water,speed_air,acceleration,weight,handling_normal,handling_antigravity,handling_water,handling_air,grip ,mini_turbo
+Roller;Azure Roller ,-0.50 ,-0.50,0,0,0.50,-0.50 ,0.25 ,0.25,0.25,0.25,-0.25,0.75
+Button;Leaf Tyres ,-0.25 ,0,-0.25,-0.25,0.25,-0.50 ,0,0.25,0 ,-0.25 ,-0.50,0.50
+Normal;Normal Blue;GLA Tires,0 ,0,0,0,0 ,0 ,0,0 ,0 ,0 ,0,0
+Sponge;Cushion,-0.25 ,-0.25,-0.50,0.25 ,0 ,-0.25 ,-0.25,0 ,-0.50 ,0 ,0.25 ,0.25
+Off-Road;Retro Off-Road;Triforce Tyres,0.25,0,0.25 ,-0.50,-0.25 ,0.25,-0.50,-0.25 ,-0.50 ,-0.50 ,0.25 ,-0.50
+Slim;Wood;Crimson Slim,0.25,0.50 ,-0.25,-0.25,-0.50 ,0 ,0.25 ,0 ,0.25,0.25,-1.00,-0.25
+Monster;Funky Monster ,0 ,0,-0.25,-0.50,-0.50 ,0.50,-0.75,-0.75 ,-0.50 ,-0.50 ,0.50 ,-0.25
+Slick;Cyber Slick ,0.50,0.50 ,-0.75,-0.75,-0.75 ,0.25,-0.25,-0.25 ,-0.75 ,-0.50 ,-1.25,-0.75
+Metal;Gold Wheels ,0.50,-0.25,0,-0.25,-1.00 ,0.50,-0.25,-0.50 ,-0.25 ,-0.75 ,-0.75,-0.75
