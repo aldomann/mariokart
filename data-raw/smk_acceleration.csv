@@ -1,0 +1,54 @@
+character,time,speed
+Peach;Yoshi,0.000,0.000
+Peach;Yoshi,0.251,8.353
+Peach;Yoshi,0.345,19.825
+Peach;Yoshi,0.518,37.645
+Peach;Yoshi,0.746,63.095
+Peach;Yoshi,1.048,81.416
+Peach;Yoshi,1.540,101.408
+Peach;Yoshi,2.064,110.207
+Peach;Yoshi,4.182,119.173
+Peach;Yoshi,6.393,124.017
+Peach;Yoshi,8.105,128.389
+Koopa Troopa;Toad,0.000,0.000
+Koopa Troopa;Toad,0.511,16.818
+Koopa Troopa;Toad,0.664,25.561
+Koopa Troopa;Toad,0.755,34.415
+Koopa Troopa;Toad,0.847,44.773
+Koopa Troopa;Toad,0.949,54.073
+Koopa Troopa;Toad,1.026,62.649
+Koopa Troopa;Toad,1.270,81.026
+Koopa Troopa;Toad,1.543,91.050
+Koopa Troopa;Toad,2.048,100.350
+Koopa Troopa;Toad,2.886,110.040
+Koopa Troopa;Toad,3.950,120.119
+Koopa Troopa;Toad,6.059,129.809
+Koopa Troopa;Toad,8.039,133.039
+Mario;Luigi,0.000,0.000
+Mario;Luigi,0.513,8.854
+Mario;Luigi,0.703,18.043
+Mario;Luigi,0.978,26.229
+Mario;Luigi,1.099,35.807
+Mario;Luigi,1.189,44.523
+Mario;Luigi,1.355,61.647
+Mario;Luigi,1.473,68.998
+Mario;Luigi,1.621,79.105
+Mario;Luigi,1.949,91.384
+Mario;Luigi,2.476,100.656
+Mario;Luigi,3.225,108.759
+Mario;Luigi,5.371,119.340
+Mario;Luigi,7.559,124.017
+Mario;Luigi,8.103,125.911
+Bowser;Donkey Kong,0.000,0.000
+Bowser;Donkey Kong,1.617,26.897
+Bowser;Donkey Kong,2.151,36.587
+Bowser;Donkey Kong,2.674,54.630
+Bowser;Donkey Kong,2.847,64.236
+Bowser;Donkey Kong,3.023,73.007
+Bowser;Donkey Kong,3.167,82.363
+Bowser;Donkey Kong,3.297,91.551
+Bowser;Donkey Kong,3.507,100.656
+Bowser;Donkey Kong,3.710,108.982
+Bowser;Donkey Kong,4.742,119.340
+Bowser;Donkey Kong,6.937,129.029
+Bowser;Donkey Kong,8.093,134.932
