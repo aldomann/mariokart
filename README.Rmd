@@ -1,51 +1,53 @@
+---
+output: github_document
+---
 
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-"
+)
+```
 # mariokart <img src="man/figures/logo.png" align="right" width="120" />
 
 <!-- badges: start -->
-
 <!-- badges: end -->
 
 ## Overview
 
-Mario Kart character and vehicle statistics datasets from different
-games of the series.
+Mario Kart character and vehicle statistics datasets from different games of the series.
 
 Currently these entries have been implemented:
-
-  - Mario Kart 8 (`mk8_characters`, `mk8_vehicles`, `mk8_wheels`,
-    `mk8_gliders`)
+ 
+- Mario Kart 8 (`mk8_characters`, `mk8_vehicles`, `mk8_wheels`, `mk8_gliders`)
 
 ## Installation
 
 <!-- You can install the released version of mariokart from [CRAN](https://CRAN.R-project.org) with: -->
 
 <!-- ``` r -->
-
 <!-- install.packages("mariokart") -->
-
 <!-- ``` -->
 
 <!-- And  -->
-
 The development version from [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("devtools")
 devtools::install_github("aldomann/mariokart")
 ```
-
 ## Example
 
-This is a basic example which shows you how to visually compare
-statistics from different characters:
+This is a basic example which shows you how to visually compare statistics from different characters:
 
-``` r
+```{r example-libs, message=FALSE}
 library(mariokart)
 library(ggplot2)
 library(dplyr)
 ```
 
-``` r
+```{r example}
 data(mk8_characters)
 
 mk8_characters %>% 
@@ -63,5 +65,3 @@ mk8_characters %>%
     color = "Weight class"
   )
 ```
-
-![](man/figures/README-example-1.png)<!-- -->
