@@ -119,3 +119,27 @@ mkwii_characters %>%
 ```
 
 <img src="man/figures/README-example-mkwii-2-1.png" style="display: block; margin: auto;" />
+
+A graph showing the speed as a function of time when accelerating from a
+standstill with various characters in Super Mario Kart:
+
+``` r
+data(smk_acceleration)
+
+smk_acceleration %>%
+  filter(character %in% c("Mario", "Peach", "Toad", "Bowser")) %>%
+  ggplot() +
+  aes(x = time, y = speed, group = character, color = character) +
+  geom_line() +
+  geom_point() +
+  scale_x_continuous(breaks = seq(0, 8, 1)) +
+  scale_y_continuous(breaks = seq(0, 140, 20)) +
+  labs(
+    title = "Speed as a function of time for various characters in Super Mario Kart",
+    x = "Time (s)",
+    y = "Speed (km/h)",
+    color = "Character"
+  )
+```
+
+![](man/figures/README-unnamed-chunk-2-1.png)<!-- -->
