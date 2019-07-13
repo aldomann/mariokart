@@ -53,7 +53,7 @@ mk8_characters %>%
   slice(1) %>% 
   ggplot() +
   aes(x = speed_normal, y = handling_normal, color = weight_class, label = character) +
-  ggrepel::geom_label_repel(seed = 1) +
+  ggrepel::geom_label_repel(seed = 1, show_guide = FALSE) +
   geom_point() +
   scale_x_continuous(breaks = seq(2, 5, 0.5)) +
   labs(
@@ -61,7 +61,9 @@ mk8_characters %>%
     x = "Normal speed",
     y = "Normal handling",
     color = "Weight class"
-  )
+  ) 
+#> Warning: `show_guide` has been deprecated. Please use `show.legend`
+#> instead.
 ```
 
-![](man/figures/README-example-1.png)<!-- -->
+<img src="man/figures/README-example-1.png" style="display: block; margin: auto;" />
