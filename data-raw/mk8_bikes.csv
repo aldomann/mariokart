@@ -1,10 +1,10 @@
-vehicle,speed_normal,speed_antigravity,speed_water,speed_air,acceleration,weight,handling_normal,handling_antigravity,handling_water,handling_air,grip ,mini_turbo
-Mr Scooty,-0.75 ,-0.25,-0.50,-0.50,0.75,-0.50 ,0.50 ,0.50,0.50,0.25,0.25 ,0.75
-Varmint;City Tripper ,-0.50 ,-0.50,0,-0.50,0.50,-0.25 ,0.50 ,0.25,0.50,-0.25 ,0.25 ,0.50
-Standard Bike;Flame Rider,-0.25 ,0.25 ,-0.25,0,0.25,-0.25 ,0.25 ,0.25,0.25,0 ,0.50 ,0.25
-Comet★;Yoshi Bike★,-0.25 ,0,-0.25,0.25 ,0.25,0 ,0.25 ,0 ,0 ,0.25,0,0.25
-The Duke ,0 ,0,0,0,0 ,0 ,0,0 ,0 ,0 ,0,0
-Sport Bike★;Jet Bike★ ,0.25,0,0,0,-0.50 ,-0.25 ,0,-0.25 ,0.25,0 ,-0.25,-0.25
-Master Cycle★ ,0.25,0,-0.25,0,-0.50 ,0 ,0,0 ,0 ,-0.25 ,-0.75,-0.25
-Inkstriker ,0 ,0.50 ,0,0.25 ,-0.25 ,0.25,-0.25,0.25,0 ,-0.25 ,0.25 ,0
-Splat Buggy,0.25,0.25 ,-0.25,0,-0.25 ,-0.50 ,-0.25,0.50,0.25,-0.50 ,0,-0.25
+vehicle,speed_normal,speed_antigravity,speed_water,speed_air,acceleration,weight,handling_normal,handling_antigravity,handling_water,handling_air,grip,mini_turbo
+Mr Scooty,-0.75,-0.25,-0.50,-0.50,0.75,-0.50,0.50,0.50,0.50,0.25,0.25,0.75
+Varmint;City Tripper,-0.50,-0.50,0,-0.50,0.50,-0.25,0.50,0.25,0.50,-0.25,0.25,0.50
+Standard Bike;Flame Rider,-0.25,0.25,-0.25,0,0.25,-0.25,0.25,0.25,0.25,0,0.50,0.25
+Comet★;Yoshi Bike★,-0.25,0,-0.25,0.25,0.25,0,0.25,0,0,0.25,0,0.25
+The Duke,0,0,0,0,0,0,0,0,0,0,0,0
+Sport Bike★;Jet Bike★,0.25,0,0,0,-0.50,-0.25,0,-0.25,0.25,0,-0.25,-0.25
+Master Cycle★,0.25,0,-0.25,0,-0.50,0,0,0,0,-0.25,-0.75,-0.25
+Inkstriker,0,0.50,0,0.25,-0.25,0.25,-0.25,0.25,0,-0.25,0.25,0
+Splat Buggy,0.25,0.25,-0.25,0,-0.25,-0.50,-0.25,0.50,0.25,-0.50,0,-0.25
