@@ -25,3 +25,17 @@
 #'
 #' @format A data frame with 14 observations of 13 variables
 "mk8_gliders"
+
+#' "Mario Kart Wii: Characters"
+#'
+#' A data set containing character statistics for Mario Kart Wii.
+#'
+#' @format A data frame with 26 observations of 8 variables
+"mkwii_characters"
+
+#' "Mario Kart Wii: Vehicles"
+#'
+#' A data set containing vehicle statistics for Mario Kart Wii.
+#'
+#' @format A data frame with 36 observations of 12 variables
+"mkwii_vehicles"
