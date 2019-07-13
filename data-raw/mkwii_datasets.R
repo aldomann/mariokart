@@ -8,7 +8,8 @@ mkwii_bikes <- read.csv("data-raw/mkwii_bikes.csv", sep = ",")
 
 # Process data ---------------------------------------------
 mkwii_characters <- mkwii_characters %>%
-  tidyr::separate_rows(character, sep = ";")
+  tidyr::separate_rows(character, sep = ";") %>%
+  select(character, everything())
 
 # Process vehicles
 mkwii_karts <- mkwii_karts %>%
