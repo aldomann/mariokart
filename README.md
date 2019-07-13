@@ -12,6 +12,7 @@ games of the series.
 
 Currently these entries have been implemented:
 
+  - Mario Kart Wii (`mkwii_characters`, `mkwii_vehicles`)
   - Mario Kart 8 (`mk8_characters`, `mk8_vehicles`, `mk8_wheels`,
     `mk8_gliders`)
 
