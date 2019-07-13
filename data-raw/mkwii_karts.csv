@@ -1,0 +1,19 @@
+weight_class,vehicle,vehicle_class,speed,weight,acceleration,handling,drift,off_road,mini_turbo
+heavy,Aero Glider,jet,86.25,70,26.25,21.25,33.75,20,20
+medium,B Dasher Mk 2,jet,80,60,33.75,30,46.25,26.25,30
+heavy,Flame Flyer,speed,77.5,73.75,20,26.25,60,22.5,60
+light,Blue Falcon,jet,75,36.25,43.75,36.25,53.75,30,30
+medium,Wild Wing,speed,71.25,63.75,26.25,36.25,73.75,30,73.75
+heavy,Piranha Prowler,standard,68.75,83.75,36.25,43.75,43.75,37.12,33.75
+light,Concerto,speed,67,40,35,39,80,34,80
+heavy,Dragonetti,speed,66.35,77.5,33.75,36.25,70,30,70
+medium,Turbo Blooper,rally,62.5,50,43.75,46.25,26.25,67.5,43.75
+heavy,Standard Kart L,basic,60,73.75,46.25,50,50,43.75,43.75
+light,Rally Romper,rally,57.5,43.75,53.75,53.75,36.25,80,50
+medium,Standard Kart M,basic,57.5,56.25,50,53.75,56.25,43.75,50
+light,Standard Kart S,basic,51,37,60,60,64,50,56
+heavy,Offroader,control,48.75,80,60,67.5,22.5,53.75,56.25
+medium,Nostalgia 1,cruiser,46.25,53.75,73.75,67.5,67.5,50,63.75
+light,Cheep Charger,cruiser,43,30,80,70,73.75,56.25,67.5
+medium,Royal Racer,control,42.5,56.25,63.75,73.75,40,60,67.5
+light,Baby Booster,control,34,34,70,80,47,68,74

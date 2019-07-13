@@ -1,0 +1,19 @@
+weight_class,vehicle,vehicle_class,speed,weight,acceleration,handling,drift,off_road,mini_turbo
+heavy,Torpedo★,jet,83.75,70,30,22.5,36.25,22.5,22.5
+medium,Nitrocycle★,jet,77.5,50,36.25,33.75,50,30,33.75
+heavy,Bowser Bike★,speed,75,67.5,22.5,30,63.75,30,63.75
+medium,Mach Bike★,speed,68.75,46.25,30,40,77.5,33.75,77.5
+light,Bullet Bike★,speed,66.25,30,40,43.75,83.75,36.25,83.75
+heavy,Twinkle Star,speed,62.5,60,36.25,40,73.75,33.75,73.75
+light,Bubble Bike★,standard,60,33.75,50,50,56.25,43.75,46.25
+medium,Dolphin Dasher★,rally,60,53.75,46.25,50,30,70,46.25
+heavy,Standard Bike L,basic,57.5,67.5,50,53.75,53.75,46.25,46.25
+light,Magikruiser★,rally,53.75,30,56.25,53.75,40,83.75,53.75
+heavy,Phantom,rally,53.75,63.75,53.75,60,21.25,70,50
+medium,Standard Bike M,basic,53.75,46.25,53.75,56.25,60,46.25,53.75
+medium,Rapide★,rally,51.25,43.75,56.25,63.75,36.25,77.5,56.25
+light,Standard Bike S,basic,48.75,26.25,63.75,63.75,67.5,53.75,60
+heavy,Wario Bike,control,46.25,73.75,63.75,70,26.25,56.25,60
+light,Quacker★,cruiser,40,21.25,83.75,75,77.5,60,71.25
+medium,Bon Bon,control,40,40,67.5,77.5,43.75,63.75,70
+light,Nanobike,control,31.25,22.5,73.75,83.75,50,70,77.5

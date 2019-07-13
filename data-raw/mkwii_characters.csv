@@ -1,0 +1,27 @@
+character,speed,weight,acceleration,handling,drift,off_road,mini_turbo
+Bowser,3,8,0,0,3,0,0
+Donkey Kong,0,4,4,4,0,4,0
+Dry Bowser,0,0,0,0,0,8,8
+Funky Kong,6,0,0,0,0,4,0
+King Boo,0,0,0,8,0,4,0
+Rosalina,4,0,0,4,0,0,4
+Waluigi,0,0,8,0,7,3,0
+Wario,0,4,0,0,0,4,8
+Baby Daisy,6,7,0,0,0,0,4
+Baby Luigi,6,10,0,0,0,0,0
+Baby Mario,0,10,0,6,0,0,0
+Baby Peach,4,7,4,4,0,0,0
+Dry Bones,0,0,4,0,4,0,8
+Koopa Troopa,0,0,0,4,0,0,8
+Mii (Light),4,4,0,0,4,0,4
+Toad,0,0,8,0,8,0,0
+Toadette,4,0,0,0,0,8,0
+Birdo,0,4,0,0,0,4,8
+Bowser Jr.,0,0,0,0,0,4,4
+Daisy,6,0,0,3,0,0,5
+Diddy Kong,0,0,4,0,4,0,8
+Luigi,3,8,0,0,0,0,0
+Mario,0,8,3,3,4,0,0
+Mii (Medium),4,4,0,0,0,4,4
+Peach,3,0,7,0,8,0,0
+Yoshi,0,4,0,0,0,4,8
