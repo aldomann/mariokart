@@ -142,4 +142,4 @@ smk_acceleration %>%
   )
 ```
 
-![](man/figures/README-unnamed-chunk-2-1.png)<!-- -->
+<img src="man/figures/README-example-smk-1.png" style="display: block; margin: auto;" />

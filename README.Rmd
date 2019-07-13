@@ -114,7 +114,7 @@ mkwii_characters %>%
 ```
 
 A graph showing the speed as a function of time when accelerating from a standstill with various characters in Super Mario Kart:
-```{r}
+```{r example-smk, fig.align='center'}
 data(smk_acceleration)
 
 smk_acceleration %>%
