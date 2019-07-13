@@ -34,10 +34,10 @@ The development version from [GitHub](https://github.com/) with:
 devtools::install_github("aldomann/mariokart")
 ```
 
-## Example
+## Examples
 
-This is a basic example which shows you how to visually compare
-statistics from different characters:
+This is an example which shows how to visually compare statistics from
+different Mario Kart 8 characters:
 
 ``` r
 library(mariokart)
@@ -53,17 +53,41 @@ mk8_characters %>%
   slice(1) %>% 
   ggplot() +
   aes(x = speed_normal, y = handling_normal, color = weight_class, label = character) +
-  ggrepel::geom_label_repel(seed = 1, show_guide = FALSE) +
+  ggrepel::geom_label_repel(seed = 1, show.legend = FALSE) +
   geom_point() +
   scale_x_continuous(breaks = seq(2, 5, 0.5)) +
   labs(
-    title = "Character speed vs handling combinations on Mario Kart 8",
+    title = "Character speed vs handling combinations in Mario Kart 8",
     x = "Normal speed",
     y = "Normal handling",
     color = "Weight class"
   ) 
-#> Warning: `show_guide` has been deprecated. Please use `show.legend`
-#> instead.
 ```
 
-<img src="man/figures/README-example-1.png" style="display: block; margin: auto;" />
+<img src="man/figures/README-example-mk8-1.png" style="display: block; margin: auto;" />
+
+This is an example which shows how to visually compare Mario Kart Wii
+karts statistics grouped by drifting type:
+
+``` r
+data(mkwii_vehicles)
+
+mkwii_vehicles %>% 
+  filter(vehicle_type == "bike") %>% 
+  mutate(total_stats = rowSums(select_if(., is.numeric))) %>% 
+  select(starts_with("vehicle"), drift_type, weight_class, total_stats) %>% 
+  arrange(vehicle_class) %>% 
+  ggplot() +
+  aes(x = reorder(vehicle, total_stats), y = total_stats, fill = vehicle_class) +
+  geom_col() +
+  labs(
+    title = "Bikes in Mario Kart Wii by total statistics",
+    x = "Kart name",
+    y = "Total statistics",
+    fill = "Vehicle class"
+  ) +
+  facet_grid(drift_type ~ ., scales = "free_y", space = "free_y") +
+  coord_flip()
+```
+
+<img src="man/figures/README-example-mkwii-1.png" style="display: block; margin: auto;" />
