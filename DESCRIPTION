@@ -1,5 +1,5 @@
 Package: mariokart
-Title: Mario Kart Statistics from Different Games
+Title: Mario Kart Statistics Datasets
 Version: 1.0.0
 Authors@R: 
     person(given = "Alfredo",
@@ -7,7 +7,7 @@ Authors@R:
            role = c("aut", "cre"),
            email = "aldomann.designs@gmail.com",
            comment = c(ORCID = "0000-0002-2660-4545"))
-Description: What the package does (one paragraph).
+Description: Mario Kart character and vehicle statistics datasets from different games of the series.
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
