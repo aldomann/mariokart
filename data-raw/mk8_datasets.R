@@ -11,7 +11,8 @@ mk8_gliders <- read.csv("data-raw/mk8_gliders.csv", sep = ",")
 
 # Process data ---------------------------------------------
 mk8_characters <- mk8_characters %>%
-  tidyr::separate_rows(character, sep = ";")
+  tidyr::separate_rows(character, sep = ";") %>%
+  select(character, everything())
 
 mk8_wheels <- mk8_wheels %>%
   tidyr::separate_rows(wheels, sep = ";")
