@@ -27,7 +27,7 @@ mk8_karts <- mk8_karts %>%
 mk8_bikes <- mk8_bikes %>%
   tidyr::separate_rows(vehicle, sep = ";") %>%
   dplyr::mutate(
-    drift = stringr::str_detect(vehicle, "★"),
+    drift_type = stringr::str_detect(vehicle, "★"),
     vehicle = stringr::str_replace_all(vehicle, "★", ""),
     vehicle_type = "bike"
   )
@@ -38,10 +38,10 @@ mk8_atvs <- mk8_atvs %>%
 
 mk8_vehicles <- plyr::rbind.fill(mk8_karts, mk8_bikes, mk8_atvs) %>%
   dplyr::mutate(
-    drift = ifelse(drift == TRUE, "inside", "outside"),
-    drift = ifelse(is.na(drift), "none", drift)
+    drift_type = ifelse(drift_type == TRUE, "inside", "outside"),
+    drift_type = ifelse(is.na(drift_type), "none", drift_type)
   ) %>%
-  select(vehicle, vehicle_type, drift, dplyr::everything())
+  select(vehicle, vehicle_type, drift_type, dplyr::everything())
 
 # Export data ----------------------------------------------
 usethis::use_data(mk8_characters, overwrite = TRUE)
