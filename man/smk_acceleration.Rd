@@ -5,10 +5,16 @@
 \alias{smk_acceleration}
 \title{"Super Mario Kart: Acceleration"}
 \format{A data frame with 106 observations of 3 variables}
+\source{
+\url{https://www.mariowiki.com/File:SMK_Acceleration_Graph.png}
+}
 \usage{
 smk_acceleration
 }
 \description{
 A data set containing experimental data for speed with respect to time for Super Mario Kart.
+}
+\details{
+The raw data was analysed with Fiji from a scan of page 17 of the Japanese "Nintendo Official Guidebook" for Super Mario Kart.
 }
 \keyword{datasets}
