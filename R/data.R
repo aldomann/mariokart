@@ -39,3 +39,24 @@
 #'
 #' @format A data frame with 36 observations of 12 variables
 "mkwii_vehicles"
+
+#' "Super Mario Kart: Character"
+#'
+#' A data set containing character statistics for Super Mario Kart.
+#'
+#' @format A data frame with 8 observations of 5 variables
+"smk_characters"
+
+#' "Super Mario Kart: Speeds"
+#'
+#' A data set containing speed statistics on different terrains for Super Mario Kart.
+#'
+#' @format A data frame with 8 observations of 8 variables
+"smk_speeds"
+
+#' "Super Mario Kart: Acceleration"
+#'
+#' A data set containing experimental data for speed with respect to time for Super Mario Kart.
+#'
+#' @format A data frame with 106 observations of 3 variables
+"smk_acceleration"
