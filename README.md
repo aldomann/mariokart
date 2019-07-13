@@ -92,3 +92,30 @@ mkwii_vehicles %>%
 ```
 
 <img src="man/figures/README-example-mkwii-1.png" style="display: block; margin: auto;" />
+
+This is an example which shows a visual comparison of the best
+chacarters per weight class in Mario Kart Wii:
+
+``` r
+data(mkwii_characters)
+
+mkwii_characters %>% 
+  select(-weight) %>% 
+  mutate(total_stats = rowSums(select_if(., is.numeric))) %>% 
+  dplyr::arrange(desc(total_stats)) %>% 
+  group_by(weight_class) %>% 
+  mutate_at(vars(-character, -weight_class, -total_stats), function(x) {x/10}) %>%
+  slice(1) %>% 
+  ungroup() %>% 
+  select(-weight_class, -total_stats) %>% 
+  ggradar::ggradar(
+    grid.label.size = 5,
+    group.point.size = 4,
+    group.line.width = 1,
+    axis.labels = c("Speed", "Acceleration", "Handling", "Drift", "Off-road", "Mini-turbo"),
+    axis.label.size = 4.5,
+    legend.text.size = 12
+  )
+```
+
+<img src="man/figures/README-example-mkwii-2-1.png" style="display: block; margin: auto;" />

@@ -89,3 +89,26 @@ mkwii_vehicles %>%
   facet_grid(drift_type ~ ., scales = "free_y", space = "free_y") +
   coord_flip()
 ```
+
+This is an example which shows a visual comparison of the best chacarters per weight class in Mario Kart Wii:
+```{r example-mkwii-2, fig.align='center'}
+data(mkwii_characters)
+
+mkwii_characters %>% 
+  select(-weight) %>% 
+  mutate(total_stats = rowSums(select_if(., is.numeric))) %>% 
+  dplyr::arrange(desc(total_stats)) %>% 
+  group_by(weight_class) %>% 
+  mutate_at(vars(-character, -weight_class, -total_stats), function(x) {x/10}) %>%
+  slice(1) %>% 
+  ungroup() %>% 
+  select(-weight_class, -total_stats) %>% 
+  ggradar::ggradar(
+    grid.label.size = 5,
+    group.point.size = 4,
+    group.line.width = 1,
+    axis.labels = c("Speed", "Acceleration", "Handling", "Drift", "Off-road", "Mini-turbo"),
+    axis.label.size = 4.5,
+    legend.text.size = 12
+  )
+```
