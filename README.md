@@ -1,10 +1,12 @@
 
-# mariokart <img src="man/figures/logo.png" align="right" width="120" />
+# mariokart <img src="man/figures/logo.png" align="right" width="120"/>
 
 <!-- badges: start -->
 
 [![lifecycle](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www.tidyverse.org/lifecycle/#maturing)
 [![CRAN\_Status\_Badge](https://www.r-pkg.org/badges/version/mariokart)](https://cran.r-project.org/package=mariokart)
+[![pkgdown Workflow
+Status](https://github.com/aldomann/mariokart/workflows/pkgdown/badge.svg)](https://aldomann.github.io/maroikart/)
 <!-- badges: end -->
 
 ## Overview
