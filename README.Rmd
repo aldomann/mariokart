@@ -12,6 +12,8 @@ knitr::opts_chunk$set(
 # mariokart <img src="man/figures/logo.png" align="right" width="120" />
 
 <!-- badges: start -->
+[![lifecycle](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www.tidyverse.org/lifecycle/#maturing)
+[![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/mariokart)](https://cran.r-project.org/package=mariokart)
 <!-- badges: end -->
 
 ## Overview
@@ -49,7 +51,8 @@ library(dplyr)
 ```
 
 ```{r example-mk8, fig.align='center'}
-data(mk8_characters)
+data(mkwii_characters)
+data(mk8_vehicles)
 
 mk8_characters %>% 
   group_by(speed_normal, handling_normal, weight_class) %>% 

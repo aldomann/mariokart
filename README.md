@@ -3,6 +3,8 @@
 
 <!-- badges: start -->
 
+[![lifecycle](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www.tidyverse.org/lifecycle/#maturing)
+[![CRAN\_Status\_Badge](https://www.r-pkg.org/badges/version/mariokart)](https://cran.r-project.org/package=mariokart)
 <!-- badges: end -->
 
 ## Overview
@@ -47,7 +49,8 @@ library(dplyr)
 ```
 
 ``` r
-data(mk8_characters)
+data(mkwii_characters)
+data(mk8_vehicles)
 
 mk8_characters %>% 
   group_by(speed_normal, handling_normal, weight_class) %>% 
